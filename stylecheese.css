@@ -1,0 +1,77 @@
+@font-face {
+font-family: 'old-letterhand';
+src: url(fonts/Old letterhand.otf);
+}
+body {
+  background-color: #F98A29;
+}
+h1 {color: #000000;
+  text-align: center;
+  font-family: Old letterhand;
+}
+h2 {
+  color: #000000;
+  text-align: center;
+  font-family: Old letterhand;
+}
+
+.columnleft {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+.columnright {
+  float: right;
+  width: 48%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnleft2 {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+.columnright2 {
+  float: right;
+  width: 48%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnleft3 {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+.columnright3 {
+  float: right;
+  width: 48%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
